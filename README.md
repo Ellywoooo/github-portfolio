@@ -1,46 +1,79 @@
-# Simple Website Using Github Pages
-Make a simple HTML website and publish it using Github Pages.  
-View example: https://zirafa.github.io/simple-website-template/
+![thumbnail](https://user-images.githubusercontent.com/16558205/180779213-ea740975-3df1-460a-a964-0a623ee25872.png)
 
-## Setup
-- Create a Github account (if you don't have one yet)
-- Fork this repository to copy it to your account, i.e. github.com/username/simple-website-template (you can rename it as well)
-- Make sure you see the gh-pages branch (it should be the default)
-- Edit website files on the gh-pages branch, then wait a minute or two for Github Pages to update and deploy your site.
-- View your site: https://username.github.io/simple-website-template
+### Live - https://ui.chetanverma.com/template/1
+### Demo Video - https://www.youtube.com/watch?v=62_HLbx2zLQ&t=9s
+### Open Source UI Components - https://ui.chetanverma.com/
 
-## How does this work?
-This website template uses CSS & JS to hide and show different parts of index.html and uses Github Pages to render the website from the gh-pages branch.
+### Tutorials
 
-## Things to try
-- Edit index.html and change the title of the page
-- Edit index.html and change the content displayed in home, about, and contact.
-- Edit index.html and change the content in the footer region.
-- Replace logo.jpg and background.jpg with your own images.
-- Update the metadata in the header portion of index.html (this is used by search engines and browsers).
-- Edit style.css and change the link color and font style.
+Youtube - https://www.youtube.com/watch?v=8cmJ2kR4SpM
 
-## Further reading
+Blog - https://www.chetanverma.com/blog/how-to-build-a-portfolio-website-using-nextjs-and-tailwindcss
 
-### Can I make separate HTML files for each page?
-You can use Javascript AJAX calls to pull in external content into your index.html page. See script.js for more details.
+### Features - 
 
-### Can I configure a custom domain for my site, i.e. johnnymakerportfolio.com?
-Yes! Github Pages supports [custom domain configuration](https://help.github.com/en/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site). However, you will need to buy a domain name from a registrar such as [NameCheap](https://www.namecheap.com/) or [Gandi](https://www.gandi.net/) -- the cost is usually around $10 - $15 a year.
+- Modern Stack (Next.js + TailwindCSS)
+- Minimal Design
+- Easy To Browse
+- Easy To Customize your details With GUI
+- Blog Crud (Create, Read, Update, Delete blog with easy to use UI).
+- Dark Mode
 
-### Can I add a blog, etc?
-This template works best for simple sites. For a blog you can try setting up [Jekyll, which is a static site generator that also works on Github pages](https://help.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll). For even more functionality, you will probably need a content management system (CMS) such as [Wordpress](https://wordpress.com), [Drupal](http://drupal.org), or [Django](https://www.djangoproject.com). A CMS will require additional setup and a website host, such as [Dreamhost](https://www.dreamhost.com/). 
 
-### Can I add a store?
-If you are interested in selling products online, check out [BigCartel](www.bigcartel.com), which lets you setup a storefront with 5 products for free.
+### Sections
 
-### I heard I need to be using XYZ framework (Bootstrap, React, etc).
-Web technology changes rapidly, and it easy to get lost in the hype. Learning the basics of HTML, CSS, and JS is a good place to start. From there, you can explore different frameworks and libraries to see what interests you.
+- Header
+- Work
+- Services
+- About
+- Contact
+- Markdown Blog
 
-### I don't want to write code or deal with website hosting. Are there any website builders you recommend?
-- Google Sites (free)
-- Squarespace
-- Wix
+
+### How To Use
+
+- Clone this repo
+- run `yarn`
+- `yarn dev`
+
+
+### How To Deploy - 
+
+- There are many ways to Deploy this repo.
+- here we are gonna use netlify
+- Login into netlify with github
+- after login select the forked repo or the repo you want to deploy
+- after selecting netlify will automatially deploy your website.
+
+Quickes way to deploy this repo - 
+
+[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chetanverma16/react-portfolio-template)
+
+
+### How To Contribute - 
+
+I would be very happy to review your PRs and all the awesome things that you can improve on this portfolio.
+
+
+### Tech Stack Used - 
+- Next.js
+- TailwindCSS
+
+
+### Thanks
+
+If you liked this portfolio template, don't forget to give it a ⭐.
+
+## Awesome Contributors
+[@Aryan3212](https://github.com/Aryan3212) [@achu-krishna](https://github.com/achu-krishna)
+
+## Supporting
+Many hours of hard work have gone into this project. Your support will be very appreciated!
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/chetanverma)
+
+
+
 
 
 
