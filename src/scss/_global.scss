@@ -1,0 +1,68 @@
+// 
+// Global
+// 
+
+body {
+    padding-top: $navbar-base-height;
+    color: $gray-600;
+}
+
+@include media-breakpoint-up(lg) {
+    body {
+        padding-top: 0;
+        padding-left: $sidebar-base-width;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+h1 {
+    line-height: 1;
+}
+
+p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+.subheading {
+    font-family: $headings-font-family;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+// Custom Tech Icons Styling
+.tech-icon {
+    width: 3rem;
+    height: 3rem;
+    transition: all 0.3s ease;
+    filter: grayscale(0%);
+    
+    &:hover {
+        transform: scale(1.1);
+        filter: brightness(1.2);
+    }
+}
+
+// Responsive sizing for tech icons
+@include media-breakpoint-down(md) {
+    .tech-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .tech-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+}
